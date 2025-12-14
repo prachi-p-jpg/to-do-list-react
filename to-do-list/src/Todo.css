@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:aliceblue;
+    margin-top:150px;
+}
+.todo-container{
+    border:solid white 2px;
+    width:450px;
+    height:auto;
+    background-color: rgb(29, 28, 28);
+    margin-left:480px;
+    border-radius:20px;
+}
+h1{
+    margin-top:20px;
+    font-size:40px;
+}
+.todo-input{
+    width:70%;
+    height:30px;
+    border-radius:5px;
+    border:none;
+    padding-left:10px;
+    font-size:16px;
+    margin-bottom:20px;
+}
+button{
+    width:20%;
+    height:35px;
+    border-radius:5px;
+    border:none;
+    background-color:black;
+    font-size:16px;
+    cursor:pointer;
+    color:white;
+}
+button:hover{
+    background-color:grey;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+}
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    body{
+        margin-top: 40px;
+    }
+    .todo-container{
+        width: 90%;
+        margin: auto;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .todo-input{
+        width: 65%;
+    }
+    button{
+        width: 30%;
+        height: 36px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    body{
+        margin-top: 60px;
+    }
+    .todo-container{
+        width: 80%;
+        margin: auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .todo-input{
+        width: 68%;
+    }
+    button{
+        width: 28%;
+    }
+}
+
+/* Small laptops */
+@media (min-width: 901px) and (max-width: 1200px) {
+    body{
+        margin-top: 80px;
+    }
+    .todo-container{
+        width: 60%;
+        margin: auto;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1201px) and (max-width: 1500px) {
+    body{
+        margin-top: 120px;
+    }
+    .todo-container{
+        width: 45%;
+        margin: auto;
+    }
+}
