@@ -13,5 +13,5 @@ This is a beginner-level React project built while learning React basics.
 - Vite
 
 ## How to run
-npm install
-npm run dev
+- npm install
+- npm run dev
